@@ -7,7 +7,7 @@ import java.util.Arrays;
 
 public interface SearchAlgorithm {
     int[] solve();
-    static void saveToFile(String filePath, int[] solution, int bestLongestDistance, int bestPathDistance) {
+    static void saveToFile(String filePath, int[] solution, int bestLongestDistance, int bestPathDistance, String time) {
         try {
             // open the file in append mode
             BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true));
@@ -17,6 +17,8 @@ public interface SearchAlgorithm {
             writer.write("Minimum longest distance: " + bestLongestDistance);
             writer.newLine();
             writer.write("Path distance: " + bestPathDistance);
+            writer.newLine();
+            writer.write("Time: " + time);
             writer.newLine();
 
             // close the file

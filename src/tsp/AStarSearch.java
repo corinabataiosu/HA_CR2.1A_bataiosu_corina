@@ -145,7 +145,7 @@ public class AStarSearch implements SearchAlgorithm {
         }
     }
 
-    public static void saveToFile(String filePath, int[] solution, int bestLongestDistance, int bestPathDistance) {
+    public static void saveToFile(String filePath, int[] solution, int bestLongestDistance, int bestPathDistance, String time) {
         try {
             // open the file in append mode
             BufferedWriter writer = new BufferedWriter(new FileWriter(filePath, true));
@@ -159,7 +159,7 @@ public class AStarSearch implements SearchAlgorithm {
             System.err.println("ERROR! Data could not be saved inside the file. " + e.getMessage());
         }
 
-        SearchAlgorithm.saveToFile(filePath, solution, bestLongestDistance, bestPathDistance);
+        SearchAlgorithm.saveToFile(filePath, solution, bestLongestDistance, bestPathDistance, time);
 
         try {
             // open the file in append mode

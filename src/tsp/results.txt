@@ -1,1226 +1,1499 @@
-0 2 4 1 
-2 0 3 5 
-4 3 0 3 
-1 5 3 0 
 
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 3, 0]
-Minimum longest distance: 3
-Path distance: 9
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 3, 2, 1, 0]
-Minimum longest distance: 3
-Path distance: 9
----------------------A* SEARCH---------------------------
-Best path: [0, 3, 2, 1, 0]
-Minimum longest distance: 3
-Path distance: 9
-
-
-0 2 4 1 
-2 0 4 5 
-4 4 0 5 
-1 5 5 0 
+0 4 3 5 
+4 0 4 5 
+3 4 0 3 
+5 5 3 0 
 
 ---------------------DEPTH FIRST SEARCH---------------------------
 Best path: [0, 1, 2, 3, 0]
 Minimum longest distance: 5
-Path distance: 12
+Path distance: 16
+Time: 0.000020500
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 2, 3, 1, 0]
+Minimum longest distance: 5
+Path distance: 15
+Time: 0.000111400
+---------------------A* SEARCH---------------------------
+Best path: [0, 2, 3, 1, 0]
+Minimum longest distance: 5
+Path distance: 15
+Time: 0.001795800
+
+
+0 5 5 4 
+5 0 1 1 
+5 1 0 1 
+4 1 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 3, 0]
+Minimum longest distance: 5
+Path distance: 11
+Time: 0.000034400
 ---------------------LEAST COST SEARCH---------------------------
 Best path: [0, 3, 1, 2, 0]
 Minimum longest distance: 5
-Path distance: 14
+Path distance: 11
+Time: 0.000080300
 ---------------------A* SEARCH---------------------------
 Best path: [0, 3, 2, 1, 0]
 Minimum longest distance: 5
-Path distance: 12
+Path distance: 11
+Time: 0.000532500
 
 
-0 5 1 3 
-5 0 5 5 
-1 5 0 4 
-3 5 4 0 
+0 5 1 4 
+5 0 4 1 
+1 4 0 4 
+4 1 4 0 
 
 ---------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 3, 0]
-Minimum longest distance: 5
-Path distance: 17
+Best path: [0, 2, 1, 3, 0]
+Minimum longest distance: 4
+Path distance: 10
+Time: 0.000027800
 ---------------------LEAST COST SEARCH---------------------------
 Best path: [0, 2, 3, 1, 0]
 Minimum longest distance: 5
-Path distance: 15
+Path distance: 11
+Time: 0.000081000
 ---------------------A* SEARCH---------------------------
 Best path: [0, 2, 3, 1, 0]
 Minimum longest distance: 5
-Path distance: 15
+Path distance: 11
+Time: 0.000339700
 
 
-0 2 4 4 
-2 0 5 1 
+0 1 4 4 
+1 0 5 1 
 4 5 0 1 
 4 1 1 0 
 
 ---------------------DEPTH FIRST SEARCH---------------------------
 Best path: [0, 1, 3, 2, 0]
 Minimum longest distance: 4
-Path distance: 8
+Path distance: 7
+Time: 0.000015800
 ---------------------LEAST COST SEARCH---------------------------
 Best path: [0, 1, 3, 2, 0]
 Minimum longest distance: 4
-Path distance: 8
+Path distance: 7
+Time: 0.000071500
 ---------------------A* SEARCH---------------------------
 Best path: [0, 1, 3, 2, 0]
 Minimum longest distance: 4
-Path distance: 8
+Path distance: 7
+Time: 0.000340500
 
 
-0 2 3 1 
-2 0 5 4 
-3 5 0 1 
-1 4 1 0 
+0 4 2 4 
+4 0 3 5 
+2 3 0 4 
+4 5 4 0 
 
 ---------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 3, 2, 0]
+Best path: [0, 1, 2, 3, 0]
 Minimum longest distance: 4
-Path distance: 10
+Path distance: 15
+Time: 0.000014600
 ---------------------LEAST COST SEARCH---------------------------
-Best path: [0, 1, 3, 2, 0]
-Minimum longest distance: 4
-Path distance: 10
----------------------A* SEARCH---------------------------
-Best path: [0, 3, 2, 1, 0]
+Best path: [0, 2, 1, 3, 0]
 Minimum longest distance: 5
+Path distance: 14
+Time: 0.000102100
+---------------------A* SEARCH---------------------------
+Best path: [0, 2, 1, 3, 0]
+Minimum longest distance: 5
+Path distance: 14
+Time: 0.000507100
+
+
+0 5 4 2 1 
+5 0 2 5 5 
+4 2 0 1 5 
+2 5 1 0 4 
+1 5 5 4 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 3, 4, 0]
+Minimum longest distance: 5
+Path distance: 13
+Time: 0.000021600
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 4, 3, 2, 1, 0]
+Minimum longest distance: 5
+Path distance: 13
+Time: 0.000123000
+---------------------A* SEARCH---------------------------
+Best path: [0, 4, 3, 2, 1, 0]
+Minimum longest distance: 5
+Path distance: 13
+Time: 0.000322400
+
+
+0 4 3 5 3 
+4 0 2 1 1 
+3 2 0 1 5 
+5 1 1 0 2 
+3 1 5 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 1, 3, 4, 0]
+Minimum longest distance: 3
+Path distance: 11
+Time: 0.000038000
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 2, 3, 1, 4, 0]
+Minimum longest distance: 3
 Path distance: 9
-
-
-0 4 1 1 1 
-4 0 5 2 2 
-1 5 0 2 4 
-1 2 2 0 4 
-1 2 4 4 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 2, 3, 1, 4, 0]
-Minimum longest distance: 2
-Path distance: 8
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 4, 1, 3, 2, 0]
-Minimum longest distance: 2
-Path distance: 8
+Time: 0.000157800
 ---------------------A* SEARCH---------------------------
 Best path: [0, 2, 3, 1, 4, 0]
-Minimum longest distance: 2
-Path distance: 8
+Minimum longest distance: 3
+Path distance: 9
+Time: 0.001205600
 
 
-0 3 3 5 1 
-3 0 1 4 5 
-3 1 0 2 3 
-5 4 2 0 3 
-1 5 3 3 0 
+0 2 3 2 4 
+2 0 2 5 4 
+3 2 0 2 2 
+2 5 2 0 4 
+4 4 2 4 0 
 
 ---------------------DEPTH FIRST SEARCH---------------------------
 Best path: [0, 1, 2, 3, 4, 0]
-Minimum longest distance: 3
-Path distance: 10
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 4, 3, 2, 1, 0]
-Minimum longest distance: 3
-Path distance: 10
----------------------A* SEARCH---------------------------
-Best path: [0, 4, 3, 2, 1, 0]
-Minimum longest distance: 3
-Path distance: 10
-
-
-0 5 5 3 4 
-5 0 5 4 3 
-5 5 0 1 4 
-3 4 1 0 1 
-4 3 4 1 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 3, 4, 0]
-Minimum longest distance: 5
-Path distance: 16
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 1, 4, 3, 2, 0]
-Minimum longest distance: 5
-Path distance: 15
----------------------A* SEARCH---------------------------
-Best path: [0, 1, 4, 3, 2, 0]
-Minimum longest distance: 5
-Path distance: 15
-
-
-0 4 1 2 3 
-4 0 1 2 5 
-1 1 0 4 3 
-2 2 4 0 1 
-3 5 3 1 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 2, 1, 3, 4, 0]
-Minimum longest distance: 3
-Path distance: 8
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 2, 1, 3, 4, 0]
-Minimum longest distance: 3
-Path distance: 8
----------------------A* SEARCH---------------------------
-Best path: [0, 2, 1, 3, 4, 0]
-Minimum longest distance: 3
-Path distance: 8
-
-
-0 2 1 5 1 
-2 0 2 2 5 
-1 2 0 5 5 
-5 2 5 0 1 
-1 5 5 1 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 2, 1, 3, 4, 0]
-Minimum longest distance: 2
-Path distance: 7
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 2, 1, 3, 4, 0]
-Minimum longest distance: 2
-Path distance: 7
----------------------A* SEARCH---------------------------
-Best path: [0, 4, 3, 1, 2, 0]
-Minimum longest distance: 2
-Path distance: 7
-
-
-0 3 3 4 1 2 
-3 0 5 3 3 4 
-3 5 0 1 3 3 
-4 3 1 0 4 2 
-1 3 3 4 0 1 
-2 4 3 2 1 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 3, 2, 4, 5, 0]
-Minimum longest distance: 3
-Path distance: 13
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 4, 5, 2, 3, 1, 0]
-Minimum longest distance: 3
-Path distance: 12
----------------------A* SEARCH---------------------------
-Best path: [0, 4, 5, 2, 3, 1, 0]
-Minimum longest distance: 3
-Path distance: 12
-
-
-0 4 2 2 1 5 
-4 0 5 1 1 3 
-2 5 0 2 1 1 
-2 1 2 0 2 2 
-1 1 1 2 0 1 
-5 3 1 2 1 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 2, 5, 3, 1, 4, 0]
-Minimum longest distance: 2
-Path distance: 8
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 4, 2, 5, 3, 1, 0]
 Minimum longest distance: 4
-Path distance: 10
----------------------A* SEARCH---------------------------
-Best path: [0, 4, 2, 5, 3, 1, 0]
-Minimum longest distance: 4
-Path distance: 10
-
-
-0 5 2 1 3 3 
-5 0 1 2 3 4 
-2 1 0 1 3 1 
-1 2 1 0 2 5 
-3 3 3 2 0 4 
-3 4 1 5 4 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 3, 1, 4, 2, 5, 0]
-Minimum longest distance: 3
-Path distance: 13
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 3, 4, 1, 2, 5, 0]
-Minimum longest distance: 3
-Path distance: 11
----------------------A* SEARCH---------------------------
-Best path: [0, 3, 4, 1, 2, 5, 0]
-Minimum longest distance: 3
-Path distance: 11
-
-
-0 3 4 4 4 3 
-3 0 5 1 1 5 
-4 5 0 2 3 2 
-4 1 2 0 1 2 
-4 1 3 1 0 2 
-3 5 2 2 2 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 3, 2, 4, 5, 0]
-Minimum longest distance: 3
 Path distance: 14
+Time: 0.000037400
 ---------------------LEAST COST SEARCH---------------------------
-Best path: [0, 5, 2, 3, 1, 4, 0]
+Best path: [0, 3, 2, 1, 4, 0]
 Minimum longest distance: 4
-Path distance: 13
+Path distance: 14
+Time: 0.000327500
 ---------------------A* SEARCH---------------------------
-Best path: [0, 5, 4, 1, 3, 2, 0]
+Best path: [0, 3, 2, 4, 1, 0]
 Minimum longest distance: 4
-Path distance: 13
+Path distance: 12
+Time: 0.000701700
 
 
-0 1 2 5 4 5 
-1 0 5 2 5 5 
-2 5 0 1 3 3 
-5 2 1 0 2 4 
-4 5 3 2 0 4 
-5 5 3 4 4 0 
+0 1 1 3 1 
+1 0 5 3 4 
+1 5 0 5 3 
+3 3 5 0 5 
+1 4 3 5 0 
 
 ---------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 3, 2, 5, 4, 0]
+Best path: [0, 2, 4, 1, 3, 0]
 Minimum longest distance: 4
-Path distance: 15
+Path distance: 14
+Time: 0.000039500
 ---------------------LEAST COST SEARCH---------------------------
-Best path: [0, 1, 3, 2, 4, 5, 0]
-Minimum longest distance: 5
-Path distance: 16
+Best path: [0, 2, 4, 1, 3, 0]
+Minimum longest distance: 4
+Path distance: 14
+Time: 0.000177300
 ---------------------A* SEARCH---------------------------
+Best path: [0, 2, 4, 1, 3, 0]
+Minimum longest distance: 4
+Path distance: 14
+Time: 0.000885400
+
+
+0 4 2 1 1 
+4 0 1 3 3 
+2 1 0 2 5 
+1 3 2 0 4 
+1 3 5 4 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 3, 1, 4, 0]
+Minimum longest distance: 3
+Path distance: 11
+Time: 0.000022400
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 3, 2, 1, 4, 0]
+Minimum longest distance: 3
+Path distance: 8
+Time: 0.000166200
+---------------------A* SEARCH---------------------------
+Best path: [0, 3, 2, 1, 4, 0]
+Minimum longest distance: 3
+Path distance: 8
+Time: 0.000434700
+
+
+0 3 3 3 1 2 
+3 0 1 4 4 5 
+3 1 0 3 2 2 
+3 4 3 0 4 5 
+1 4 2 4 0 5 
+2 5 2 5 5 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
 Best path: [0, 1, 3, 4, 2, 5, 0]
+Minimum longest distance: 4
+Path distance: 17
+Time: 0.000106200
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 4, 3, 1, 2, 5, 0]
+Minimum longest distance: 4
+Path distance: 14
+Time: 0.000705300
+---------------------A* SEARCH---------------------------
+Best path: [0, 4, 3, 1, 2, 5, 0]
+Minimum longest distance: 4
+Path distance: 14
+Time: 0.001228200
+
+
+0 3 5 2 1 2 
+3 0 4 4 4 2 
+5 4 0 3 4 1 
+2 4 3 0 5 2 
+1 4 4 5 0 2 
+2 2 1 2 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 3, 5, 4, 0]
+Minimum longest distance: 4
+Path distance: 15
+Time: 0.000066400
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 4, 1, 5, 2, 3, 0]
+Minimum longest distance: 4
+Path distance: 13
+Time: 0.000489700
+---------------------A* SEARCH---------------------------
+Best path: [0, 4, 5, 2, 3, 1, 0]
+Minimum longest distance: 4
+Path distance: 14
+Time: 0.000855800
+
+
+0 1 3 1 5 4 
+1 0 1 2 4 2 
+3 1 0 1 2 4 
+1 2 1 0 1 3 
+5 4 2 1 0 2 
+4 2 4 3 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 5, 4, 2, 3, 0]
+Minimum longest distance: 2
+Path distance: 9
+Time: 0.000109900
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 1, 2, 3, 4, 5, 0]
+Minimum longest distance: 4
+Path distance: 10
+Time: 0.000251000
+---------------------A* SEARCH---------------------------
+Best path: [0, 1, 2, 3, 4, 5, 0]
+Minimum longest distance: 4
+Path distance: 10
+Time: 0.000642700
+
+
+0 4 2 1 3 2 
+4 0 2 5 1 4 
+2 2 0 1 2 5 
+1 5 1 0 1 4 
+3 1 2 1 0 1 
+2 4 5 4 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 3, 2, 1, 4, 5, 0]
+Minimum longest distance: 2
+Path distance: 8
+Time: 0.000112000
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 3, 2, 1, 4, 5, 0]
+Minimum longest distance: 2
+Path distance: 8
+Time: 0.000438500
+---------------------A* SEARCH---------------------------
+Best path: [0, 3, 2, 1, 4, 5, 0]
+Minimum longest distance: 2
+Path distance: 8
+Time: 0.000626400
+
+
+0 5 4 1 4 4 
+5 0 1 1 5 1 
+4 1 0 4 2 3 
+1 1 4 0 5 4 
+4 5 2 5 0 2 
+4 1 3 4 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 1, 3, 5, 4, 0]
+Minimum longest distance: 4
+Path distance: 16
+Time: 0.000121500
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 3, 1, 5, 4, 2, 0]
+Minimum longest distance: 4
+Path distance: 11
+Time: 0.000205700
+---------------------A* SEARCH---------------------------
+Best path: [0, 3, 1, 2, 4, 5, 0]
+Minimum longest distance: 4
+Path distance: 11
+Time: 0.000509800
+
+
+0 4 3 1 5 5 4 
+4 0 2 5 3 2 4 
+3 2 0 5 5 3 3 
+1 5 5 0 2 2 4 
+5 3 5 2 0 3 1 
+5 2 3 2 3 0 4 
+4 4 3 4 1 4 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 6, 4, 1, 5, 3, 0]
+Minimum longest distance: 3
+Path distance: 15
+Time: 0.000334400
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 3, 5, 1, 2, 6, 4, 0]
 Minimum longest distance: 5
 Path distance: 16
+Time: 0.000866400
+---------------------A* SEARCH---------------------------
+Best path: [0, 3, 5, 1, 2, 6, 4, 0]
+Minimum longest distance: 5
+Path distance: 16
+Time: 0.001722800
 
 
-0 2 1 3 2 1 2 
-2 0 1 2 3 1 1 
-1 1 0 2 3 1 1 
-3 2 2 0 3 3 2 
-2 3 3 3 0 5 5 
-1 1 1 3 5 0 5 
-2 1 1 2 5 5 0 
+0 1 1 3 5 4 5 
+1 0 1 4 4 3 4 
+1 1 0 5 4 2 3 
+3 4 5 0 3 1 2 
+5 4 4 3 0 3 5 
+4 3 2 1 3 0 3 
+5 4 3 2 5 3 0 
 
 ---------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 4, 2, 5, 3, 6, 0]
+Best path: [0, 1, 2, 6, 5, 4, 3, 0]
+Minimum longest distance: 3
+Path distance: 17
+Time: 0.000510400
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 1, 2, 6, 3, 5, 4, 0]
+Minimum longest distance: 5
+Path distance: 16
+Time: 0.001341700
+---------------------A* SEARCH---------------------------
+Best path: [0, 1, 2, 6, 3, 5, 4, 0]
+Minimum longest distance: 5
+Path distance: 16
+Time: 0.002019500
+
+
+0 1 2 5 1 5 3 
+1 0 5 3 2 2 3 
+2 5 0 3 3 1 1 
+5 3 3 0 2 3 5 
+1 2 3 2 0 4 2 
+5 2 1 3 4 0 5 
+3 3 1 5 2 5 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 3, 5, 2, 4, 6, 0]
 Minimum longest distance: 3
 Path distance: 16
+Time: 0.000320100
 ---------------------LEAST COST SEARCH---------------------------
-Best path: [0, 5, 1, 6, 2, 3, 4, 0]
-Minimum longest distance: 3
-Path distance: 11
+Best path: [0, 1, 5, 2, 6, 4, 3, 0]
+Minimum longest distance: 5
+Path distance: 14
+Time: 0.001504300
 ---------------------A* SEARCH---------------------------
-Best path: [0, 5, 2, 1, 6, 3, 4, 0]
-Minimum longest distance: 3
-Path distance: 11
+Best path: [0, 1, 5, 2, 6, 4, 3, 0]
+Minimum longest distance: 5
+Path distance: 14
+Time: 0.001090100
 
 
-0 5 4 2 3 2 5 
-5 0 5 1 2 2 2 
-4 5 0 3 3 4 1 
-2 1 3 0 5 1 2 
-3 2 3 5 0 5 1 
-2 2 4 1 5 0 3 
-5 2 1 2 1 3 0 
+0 5 2 5 3 2 1 
+5 0 4 2 2 4 5 
+2 4 0 3 1 5 1 
+5 2 3 0 5 2 3 
+3 2 1 5 0 3 5 
+2 4 5 2 3 0 2 
+1 5 1 3 5 2 0 
 
 ---------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 3, 1, 4, 2, 6, 5, 0]
-Minimum longest distance: 3
-Path distance: 14
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 5, 3, 1, 4, 6, 2, 0]
-Minimum longest distance: 4
-Path distance: 12
----------------------A* SEARCH---------------------------
-Best path: [0, 5, 3, 1, 4, 6, 2, 0]
-Minimum longest distance: 4
-Path distance: 12
-
-
-0 4 5 3 1 5 2 
-4 0 3 2 1 1 3 
-5 3 0 4 1 3 4 
-3 2 4 0 2 5 5 
-1 1 1 2 0 3 2 
-5 1 3 5 3 0 5 
-2 3 4 5 2 5 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 3, 1, 2, 5, 4, 6, 0]
-Minimum longest distance: 3
-Path distance: 18
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 6, 4, 2, 5, 1, 3, 0]
-Minimum longest distance: 3
-Path distance: 14
----------------------A* SEARCH---------------------------
-Best path: [0, 6, 4, 2, 5, 1, 3, 0]
-Minimum longest distance: 3
-Path distance: 14
-
-
-0 5 1 2 5 3 5 
-5 0 4 2 4 4 5 
-1 4 0 4 4 5 4 
-2 2 4 0 4 1 2 
-5 4 4 4 0 4 5 
-3 4 5 1 4 0 1 
-5 5 4 2 5 1 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 2, 1, 4, 3, 6, 5, 0]
-Minimum longest distance: 4
-Path distance: 19
----------------------LEAST COST SEARCH---------------------------
 Best path: [0, 2, 4, 1, 3, 5, 6, 0]
-Minimum longest distance: 5
-Path distance: 18
----------------------A* SEARCH---------------------------
-Best path: [0, 2, 4, 1, 3, 5, 6, 0]
-Minimum longest distance: 5
-Path distance: 18
-
-
-0 1 1 3 1 5 2 
-1 0 2 3 4 2 2 
-1 2 0 5 2 4 4 
-3 3 5 0 4 5 5 
-1 4 2 4 0 1 2 
-5 2 4 5 1 0 2 
-2 2 4 5 2 2 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 2, 4, 5, 6, 1, 3, 0]
-Minimum longest distance: 3
-Path distance: 14
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 2, 4, 5, 6, 1, 3, 0]
-Minimum longest distance: 3
-Path distance: 14
----------------------A* SEARCH---------------------------
-Best path: [0, 2, 4, 5, 6, 1, 3, 0]
-Minimum longest distance: 3
-Path distance: 14
-
-
-0 3 5 1 4 4 3 1 
-3 0 2 4 3 3 1 3 
-5 2 0 1 5 3 3 1 
-1 4 1 0 3 4 5 4 
-4 3 5 3 0 5 2 5 
-4 3 3 4 5 0 3 2 
-3 1 3 5 2 3 0 4 
-1 3 1 4 5 2 4 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 3, 4, 6, 5, 7, 0]
-Minimum longest distance: 3
-Path distance: 17
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 3, 2, 7, 5, 1, 6, 4, 0]
-Minimum longest distance: 4
-Path distance: 15
----------------------A* SEARCH---------------------------
-Best path: [0, 3, 2, 7, 5, 1, 6, 4, 0]
-Minimum longest distance: 4
-Path distance: 15
-
-
-0 5 5 1 5 5 3 4 
-5 0 3 4 4 3 4 3 
-5 3 0 1 5 3 2 4 
-1 4 1 0 1 1 5 5 
-5 4 5 1 0 4 5 1 
-5 3 3 1 4 0 4 3 
-3 4 2 5 5 4 0 5 
-4 3 4 5 1 3 5 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 3, 4, 7, 1, 5, 2, 6, 0]
-Minimum longest distance: 3
-Path distance: 17
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 6, 2, 3, 4, 7, 1, 5, 0]
-Minimum longest distance: 5
-Path distance: 19
----------------------A* SEARCH---------------------------
-Best path: [0, 6, 2, 3, 4, 7, 5, 1, 0]
-Minimum longest distance: 5
-Path distance: 19
-
-
-0 1 5 4 2 3 4 5 
-1 0 4 5 3 5 1 4 
-5 4 0 2 3 1 2 1 
-4 5 2 0 5 5 4 2 
-2 3 3 5 0 5 5 1 
-3 5 1 5 5 0 3 5 
-4 1 2 4 5 3 0 5 
-5 4 1 2 1 5 5 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 4, 7, 3, 2, 6, 5, 0]
-Minimum longest distance: 3
-Path distance: 17
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 1, 6, 5, 2, 3, 7, 4, 0]
-Minimum longest distance: 3
-Path distance: 13
----------------------A* SEARCH---------------------------
-Best path: [0, 1, 6, 5, 2, 3, 7, 4, 0]
-Minimum longest distance: 3
-Path distance: 13
-
-
-0 2 4 1 1 2 4 5 
-2 0 2 5 3 5 3 4 
-4 2 0 2 1 4 2 3 
-1 5 2 0 5 1 4 4 
-1 3 1 5 0 2 3 3 
-2 5 4 1 2 0 5 3 
-4 3 2 4 3 5 0 5 
-5 4 3 4 3 3 5 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 6, 4, 7, 5, 3, 0]
-Minimum longest distance: 3
-Path distance: 17
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 3, 5, 7, 4, 2, 1, 6, 0]
-Minimum longest distance: 4
-Path distance: 18
----------------------A* SEARCH---------------------------
-Best path: [0, 3, 5, 7, 4, 2, 1, 6, 0]
-Minimum longest distance: 4
-Path distance: 18
-
-
-0 1 4 2 4 1 1 3 
-1 0 2 4 1 4 2 4 
-4 2 0 1 3 1 4 2 
-2 4 1 0 4 2 5 5 
-4 1 3 4 0 2 2 5 
-1 4 1 2 2 0 4 4 
-1 2 4 5 2 4 0 5 
-3 4 2 5 5 4 5 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 6, 4, 5, 3, 2, 7, 0]
-Minimum longest distance: 3
-Path distance: 15
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 6, 1, 4, 5, 3, 2, 7, 0]
-Minimum longest distance: 3
-Path distance: 14
----------------------A* SEARCH---------------------------
-Best path: [0, 6, 1, 4, 5, 3, 2, 7, 0]
-Minimum longest distance: 3
-Path distance: 14
-
-
-0 1 1 1 4 1 2 2 
-1 0 2 3 2 1 2 5 
-1 2 0 5 3 1 4 1 
-1 3 5 0 2 1 4 1 
-4 2 3 2 0 3 2 1 
-1 1 1 1 3 0 3 5 
-2 2 4 4 2 3 0 2 
-2 5 1 1 1 5 2 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 5, 3, 4, 6, 7, 0]
-Minimum longest distance: 2
-Path distance: 13
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 2, 1, 5, 3, 7, 4, 6, 0]
-Minimum longest distance: 2
-Path distance: 11
----------------------A* SEARCH---------------------------
-Best path: [0, 3, 5, 1, 2, 7, 4, 6, 0]
-Minimum longest distance: 2
-Path distance: 11
-
-
-0 5 3 3 1 3 3 1 2 
-5 0 1 3 1 4 3 1 4 
-3 1 0 2 2 4 4 3 2 
-3 3 2 0 4 4 4 4 2 
-1 1 2 4 0 5 1 1 5 
-3 4 4 4 5 0 3 2 1 
-3 3 4 4 1 3 0 3 4 
-1 1 3 4 1 2 3 0 4 
-2 4 2 2 5 1 4 4 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 2, 1, 3, 8, 5, 6, 4, 7, 0]
-Minimum longest distance: 3
-Path distance: 16
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 7, 5, 8, 3, 2, 1, 4, 6, 0]
-Minimum longest distance: 3
-Path distance: 14
----------------------A* SEARCH---------------------------
-Best path: [0, 7, 5, 8, 3, 2, 1, 4, 6, 0]
-Minimum longest distance: 3
-Path distance: 14
-
-
-0 1 3 5 2 4 5 3 5 
-1 0 4 4 2 1 1 4 4 
-3 4 0 4 4 4 2 1 5 
-5 4 4 0 5 2 1 2 4 
-2 2 4 5 0 1 1 3 5 
-4 1 4 2 1 0 4 4 4 
-5 1 2 1 1 4 0 4 5 
-3 4 1 2 3 4 4 0 3 
-5 4 5 4 5 4 5 3 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 3, 5, 8, 7, 6, 4, 0]
-Minimum longest distance: 4
-Path distance: 25
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 1, 5, 4, 6, 2, 7, 3, 8, 0]
-Minimum longest distance: 5
-Path distance: 18
----------------------A* SEARCH---------------------------
-Best path: [0, 1, 5, 4, 6, 3, 8, 7, 2, 0]
-Minimum longest distance: 4
-Path distance: 16
-
-
-0 2 5 3 4 4 3 3 1 
-2 0 1 5 3 2 3 2 4 
-5 1 0 5 4 4 5 1 4 
-3 5 5 0 4 3 5 5 1 
-4 3 4 4 0 5 4 1 2 
-4 2 4 3 5 0 2 5 3 
-3 3 5 5 4 2 0 3 1 
-3 2 1 5 1 5 3 0 3 
-1 4 4 1 2 3 1 3 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 7, 4, 8, 3, 5, 6, 0]
-Minimum longest distance: 3
-Path distance: 16
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 3, 8, 6, 5, 1, 2, 7, 4, 0]
-Minimum longest distance: 4
-Path distance: 16
----------------------A* SEARCH---------------------------
-Best path: [0, 3, 8, 6, 5, 1, 2, 7, 4, 0]
-Minimum longest distance: 4
-Path distance: 16
-
-
-0 1 2 5 1 5 1 2 2 
-1 0 2 5 3 4 1 4 1 
-2 2 0 2 4 3 1 5 3 
-5 5 2 0 5 5 4 5 5 
-1 3 4 5 0 4 1 5 2 
-5 4 3 5 4 0 2 2 4 
-1 1 1 4 1 2 0 5 1 
-2 4 5 5 5 2 5 0 3 
-2 1 3 5 2 4 1 3 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 3, 6, 4, 5, 7, 8, 0]
-Minimum longest distance: 4
-Path distance: 21
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 7, 5, 6, 4, 8, 1, 2, 3, 0]
-Minimum longest distance: 5
-Path distance: 19
----------------------A* SEARCH---------------------------
-Best path: [0, 4, 6, 5, 7, 8, 1, 2, 3, 0]
-Minimum longest distance: 5
-Path distance: 19
-
-
-0 1 1 1 2 3 3 3 3 
-1 0 2 1 2 5 4 2 2 
-1 2 0 4 4 3 3 5 4 
-1 1 4 0 1 1 5 4 2 
-2 2 4 1 0 1 2 3 5 
-3 5 3 1 1 0 1 2 2 
-3 4 3 5 2 1 0 5 5 
-3 2 5 4 3 2 5 0 3 
-3 2 4 2 5 2 5 3 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 5, 3, 8, 7, 4, 6, 0]
-Minimum longest distance: 3
-Path distance: 20
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 2, 6, 5, 4, 3, 1, 7, 8, 0]
-Minimum longest distance: 3
-Path distance: 16
----------------------A* SEARCH---------------------------
-Best path: [0, 2, 1, 3, 4, 6, 5, 7, 8, 0]
-Minimum longest distance: 3
-Path distance: 16
-
-
-0 5 3 2 5 3 5 2 4 3 
-5 0 1 5 3 5 4 5 3 3 
-3 1 0 2 3 3 5 2 3 2 
-2 5 2 0 1 1 5 4 2 4 
-5 3 3 1 0 2 1 4 5 1 
-3 5 3 1 2 0 2 2 1 5 
-5 4 5 5 1 2 0 3 5 5 
-2 5 2 4 4 2 3 0 2 2 
-4 3 3 2 5 1 5 2 0 1 
-3 3 2 4 1 5 5 2 1 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 2, 1, 4, 3, 5, 6, 7, 8, 9, 0]
-Minimum longest distance: 3
-Path distance: 20
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 3, 5, 8, 9, 4, 6, 7, 2, 1, 0]
-Minimum longest distance: 5
-Path distance: 18
----------------------A* SEARCH---------------------------
-Best path: [0, 7, 6, 4, 9, 8, 5, 3, 2, 1, 0]
-Minimum longest distance: 5
-Path distance: 18
-
-
-0 1 3 1 3 2 2 5 2 1 
-1 0 5 2 2 5 3 4 5 2 
-3 5 0 3 4 2 3 3 3 5 
-1 2 3 0 3 1 4 2 4 5 
-3 2 4 3 0 4 3 3 1 4 
-2 5 2 1 4 0 5 5 2 4 
-2 3 3 4 3 5 0 4 3 1 
-5 4 3 2 3 5 4 0 2 1 
-2 5 3 4 1 2 3 2 0 4 
-1 2 5 5 4 4 1 1 4 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 3, 2, 5, 8, 4, 7, 9, 6, 0]
-Minimum longest distance: 3
-Path distance: 18
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 1, 4, 8, 7, 9, 6, 2, 5, 3, 0]
-Minimum longest distance: 3
-Path distance: 15
----------------------A* SEARCH---------------------------
-Best path: [0, 3, 5, 2, 6, 9, 7, 8, 4, 1, 0]
-Minimum longest distance: 3
-Path distance: 15
-
-
-0 1 3 5 5 5 2 1 1 5 
-1 0 5 3 5 5 1 2 1 1 
-3 5 0 3 2 5 4 3 3 1 
-5 3 3 0 3 3 5 5 5 3 
-5 5 2 3 0 1 1 5 1 1 
-5 5 5 3 1 0 1 5 4 2 
-2 1 4 5 1 1 0 2 5 2 
-1 2 3 5 5 5 2 0 2 1 
-1 1 3 5 1 4 5 2 0 5 
-5 1 1 3 1 2 2 1 5 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 3, 2, 4, 5, 6, 9, 7, 8, 0]
-Minimum longest distance: 3
-Path distance: 17
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 7, 9, 2, 4, 8, 1, 6, 5, 3, 0]
-Minimum longest distance: 5
-Path distance: 17
----------------------A* SEARCH---------------------------
-Best path: [0, 8, 4, 5, 6, 1, 7, 9, 2, 3, 0]
-Minimum longest distance: 5
-Path distance: 17
-
-
-0 1 1 1 2 4 2 2 2 5 
-1 0 3 2 2 5 3 3 1 1 
-1 3 0 2 5 1 5 1 4 2 
-1 2 2 0 1 3 3 1 1 3 
-2 2 5 1 0 1 1 2 2 3 
-4 5 1 3 1 0 2 4 5 3 
-2 3 5 3 1 2 0 5 2 2 
-2 3 1 1 2 4 5 0 4 2 
-2 1 4 1 2 5 2 4 0 3 
-5 1 2 3 3 3 2 2 3 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 3, 2, 5, 4, 7, 9, 6, 8, 0]
-Minimum longest distance: 2
-Path distance: 17
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 3, 8, 1, 9, 6, 4, 5, 2, 7, 0]
 Minimum longest distance: 2
 Path distance: 12
+Time: 0.000521600
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 6, 2, 4, 1, 3, 5, 0]
+Minimum longest distance: 2
+Path distance: 11
+Time: 0.000767100
 ---------------------A* SEARCH---------------------------
-Best path: [0, 2, 7, 3, 8, 1, 9, 6, 4, 5, 0]
+Best path: [0, 6, 2, 4, 1, 3, 5, 0]
+Minimum longest distance: 2
+Path distance: 11
+Time: 0.000943400
+
+
+0 4 1 1 3 1 1 
+4 0 3 1 5 2 3 
+1 3 0 5 4 3 4 
+1 1 5 0 4 4 3 
+3 5 4 4 0 5 4 
+1 2 3 4 5 0 4 
+1 3 4 3 4 4 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 4, 3, 5, 6, 0]
+Minimum longest distance: 4
+Path distance: 24
+Time: 0.000512300
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 6, 3, 1, 5, 2, 4, 0]
+Minimum longest distance: 4
+Path distance: 17
+Time: 0.003349000
+---------------------A* SEARCH---------------------------
+Best path: [0, 2, 5, 1, 3, 6, 4, 0]
+Minimum longest distance: 4
+Path distance: 17
+Time: 0.001497700
+
+
+0 4 3 4 3 5 5 1 
+4 0 4 2 4 2 4 2 
+3 4 0 2 1 2 5 2 
+4 2 2 0 1 1 3 1 
+3 4 1 1 0 4 5 1 
+5 2 2 1 4 0 4 3 
+5 4 5 3 5 4 0 1 
+1 2 2 1 1 3 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 5, 1, 3, 6, 7, 4, 0]
+Minimum longest distance: 3
+Path distance: 17
+Time: 0.000867400
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 7, 6, 1, 5, 3, 4, 2, 0]
 Minimum longest distance: 4
 Path distance: 14
-
-
-0 1 5 2 2 2 4 3 2 4 
-1 0 5 1 3 3 3 5 1 2 
-5 5 0 3 2 2 3 1 2 5 
-2 1 3 0 5 4 4 4 4 5 
-2 3 2 5 0 4 4 1 5 5 
-2 3 2 4 4 0 3 1 1 4 
-4 3 3 4 4 3 0 3 2 4 
-3 5 1 4 1 1 3 0 4 4 
-2 1 2 4 5 1 2 4 0 1 
-4 2 5 5 5 4 4 4 1 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 9, 8, 5, 6, 7, 4, 2, 3, 0]
-Minimum longest distance: 3
-Path distance: 19
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 3, 1, 9, 8, 5, 7, 4, 2, 6, 0]
-Minimum longest distance: 4
-Path distance: 18
+Time: 0.004336500
 ---------------------A* SEARCH---------------------------
-Best path: [0, 3, 1, 9, 8, 5, 7, 4, 2, 6, 0]
+Best path: [0, 7, 6, 3, 4, 2, 5, 1, 0]
 Minimum longest distance: 4
-Path distance: 18
-
-
-0 4 3 2 3 5 5 2 5 1 1 
-4 0 1 1 1 5 4 5 2 1 5 
-3 1 0 3 5 4 2 2 2 4 2 
-2 1 3 0 2 5 5 1 5 1 3 
-3 1 5 2 0 4 3 4 4 1 3 
-5 5 4 5 4 0 2 5 2 3 3 
-5 4 2 5 3 2 0 4 2 2 1 
-2 5 2 1 4 5 4 0 5 5 1 
-5 2 2 5 4 2 2 5 0 2 3 
-1 1 4 1 1 3 2 5 2 0 4 
-1 5 2 3 3 3 1 1 3 4 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 3, 1, 4, 9, 6, 5, 8, 2, 7, 10, 0]
-Minimum longest distance: 2
-Path distance: 17
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 9, 4, 1, 2, 8, 5, 6, 10, 7, 3, 0]
-Minimum longest distance: 2
 Path distance: 15
+Time: 0.002844300
+
+
+0 5 4 3 5 5 5 4 
+5 0 2 4 1 4 5 1 
+4 2 0 4 3 1 5 3 
+3 4 4 0 1 5 4 1 
+5 1 3 1 0 2 5 5 
+5 4 1 5 2 0 3 5 
+5 5 5 4 5 3 0 4 
+4 1 3 1 5 5 4 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 1, 3, 4, 5, 6, 7, 0]
+Minimum longest distance: 4
+Path distance: 24
+Time: 0.000892600
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 7, 3, 4, 1, 2, 5, 6, 0]
+Minimum longest distance: 5
+Path distance: 18
+Time: 0.004662000
 ---------------------A* SEARCH---------------------------
-Best path: [0, 9, 3, 7, 10, 6, 5, 8, 2, 1, 4, 0]
+Best path: [0, 3, 7, 1, 4, 2, 5, 6, 0]
+Minimum longest distance: 5
+Path distance: 18
+Time: 0.002363400
+
+
+0 2 2 5 4 4 4 2 
+2 0 5 3 4 4 3 4 
+2 5 0 1 2 4 4 1 
+5 3 1 0 3 4 4 2 
+4 4 2 3 0 4 3 3 
+4 4 4 4 4 0 1 1 
+4 3 4 4 3 1 0 3 
+2 4 1 2 3 1 3 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 3, 2, 4, 6, 5, 7, 0]
+Minimum longest distance: 3
+Path distance: 15
+Time: 0.001042300
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 1, 3, 2, 7, 5, 6, 4, 0]
+Minimum longest distance: 4
+Path distance: 16
+Time: 0.005238300
+---------------------A* SEARCH---------------------------
+Best path: [0, 1, 6, 5, 7, 3, 2, 4, 0]
+Minimum longest distance: 4
+Path distance: 16
+Time: 0.003625000
+
+
+0 2 5 1 1 2 3 5 
+2 0 5 2 2 4 3 5 
+5 5 0 4 2 5 4 3 
+1 2 4 0 4 5 2 3 
+1 2 2 4 0 2 3 5 
+2 4 5 5 2 0 1 5 
+3 3 4 2 3 1 0 2 
+5 5 3 3 5 5 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 3, 6, 7, 2, 4, 5, 0]
+Minimum longest distance: 3
+Path distance: 17
+Time: 0.001159400
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 3, 1, 4, 5, 6, 7, 2, 0]
+Minimum longest distance: 5
+Path distance: 18
+Time: 0.004795300
+---------------------A* SEARCH---------------------------
+Best path: [0, 3, 1, 4, 5, 6, 7, 2, 0]
+Minimum longest distance: 5
+Path distance: 18
+Time: 0.003090100
+
+
+0 4 4 1 1 2 5 4 
+4 0 2 3 4 3 2 4 
+4 2 0 2 4 2 4 5 
+1 3 2 0 3 3 2 1 
+1 4 4 3 0 2 5 2 
+2 3 2 3 2 0 5 1 
+5 2 4 2 5 5 0 5 
+4 4 5 1 2 1 5 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 3, 6, 1, 2, 5, 7, 4, 0]
+Minimum longest distance: 2
+Path distance: 13
+Time: 0.001027300
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 4, 5, 7, 3, 6, 1, 2, 0]
+Minimum longest distance: 4
+Path distance: 15
+Time: 0.003706200
+---------------------A* SEARCH---------------------------
+Best path: [0, 4, 5, 7, 3, 2, 1, 6, 0]
+Minimum longest distance: 5
+Path distance: 16
+Time: 0.004387000
+
+
+0 5 4 2 2 4 2 2 
+5 0 1 5 4 3 1 3 
+4 1 0 5 4 1 1 4 
+2 5 5 0 3 5 3 5 
+2 4 4 3 0 3 3 1 
+4 3 1 5 3 0 5 3 
+2 1 1 3 3 5 0 4 
+2 3 4 5 1 3 4 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 3, 4, 5, 2, 6, 1, 7, 0]
 Minimum longest distance: 3
 Path distance: 16
-
-
-0 3 3 5 5 5 3 5 1 3 3 
-3 0 4 2 3 5 5 3 2 1 5 
-3 4 0 5 1 3 5 4 5 3 2 
-5 2 5 0 2 5 3 3 3 5 5 
-5 3 1 2 0 2 2 2 4 3 5 
-5 5 3 5 2 0 4 5 1 3 5 
-3 5 5 3 2 4 0 4 5 2 1 
-5 3 4 3 2 5 4 0 3 4 1 
-1 2 5 3 4 1 5 3 0 4 1 
-3 1 3 5 3 3 2 4 4 0 2 
-3 5 2 5 5 5 1 1 1 2 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 3, 4, 2, 5, 8, 7, 10, 6, 9, 0]
+Time: 0.001213700
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 3, 6, 1, 2, 5, 7, 4, 0]
 Minimum longest distance: 3
-Path distance: 22
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 8, 5, 2, 4, 3, 1, 9, 6, 10, 7, 0]
-Minimum longest distance: 5
-Path distance: 20
----------------------A* SEARCH---------------------------
-Best path: [0, 8, 5, 2, 4, 3, 1, 9, 6, 10, 7, 0]
-Minimum longest distance: 5
-Path distance: 20
-
-
-0 2 5 2 4 4 5 5 4 2 1 
-2 0 4 4 5 3 2 3 2 1 5 
-5 4 0 1 1 5 1 1 2 5 5 
-2 4 1 0 3 3 5 3 2 4 4 
-4 5 1 3 0 4 5 1 1 4 4 
-4 3 5 3 4 0 2 3 2 5 1 
-5 2 1 5 5 2 0 1 1 5 3 
-5 3 1 3 1 3 1 0 5 1 5 
-4 2 2 2 1 2 1 5 0 3 1 
-2 1 5 4 4 5 5 1 3 0 2 
-1 5 5 4 4 1 3 5 1 2 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 6, 2, 4, 7, 9, 10, 5, 8, 3, 0]
-Minimum longest distance: 2
-Path distance: 17
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 10, 5, 8, 4, 7, 9, 1, 6, 2, 3, 0]
-Minimum longest distance: 2
 Path distance: 14
+Time: 0.004184900
 ---------------------A* SEARCH---------------------------
-Best path: [0, 1, 9, 7, 6, 5, 10, 8, 4, 2, 3, 0]
-Minimum longest distance: 2
-Path distance: 14
-
-
-0 1 3 4 4 5 3 5 5 5 3 
-1 0 3 2 4 3 1 4 4 5 1 
-3 3 0 2 2 1 4 2 3 1 1 
-4 2 2 0 5 2 3 1 1 4 3 
-4 4 2 5 0 4 2 2 1 1 4 
-5 3 1 2 4 0 3 4 1 2 5 
-3 1 4 3 2 3 0 2 5 5 2 
-5 4 2 1 2 4 2 0 1 2 2 
-5 4 3 1 1 1 5 1 0 5 4 
-5 5 1 4 1 2 5 2 5 0 4 
-3 1 1 3 4 5 2 2 4 4 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 3, 5, 8, 4, 9, 7, 6, 10, 0]
-Minimum longest distance: 3
-Path distance: 20
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 1, 6, 10, 2, 5, 8, 4, 9, 7, 3, 0]
+Best path: [0, 7, 4, 3, 6, 1, 2, 5, 0]
 Minimum longest distance: 4
 Path distance: 16
----------------------A* SEARCH---------------------------
-Best path: [0, 1, 6, 4, 9, 2, 5, 8, 3, 7, 10, 0]
-Minimum longest distance: 3
-Path distance: 15
+Time: 0.003380800
 
 
-0 5 4 1 4 4 1 2 4 5 3 
-5 0 2 1 2 4 4 1 2 1 3 
-4 2 0 1 3 2 1 4 4 4 5 
-1 1 1 0 2 1 4 4 4 1 5 
-4 2 3 2 0 4 4 2 1 3 5 
-4 4 2 1 4 0 1 3 1 3 4 
-1 4 1 4 4 1 0 1 3 3 5 
-2 1 4 4 2 3 1 0 3 2 5 
-4 2 4 4 1 1 3 3 0 5 5 
-5 1 4 1 3 3 3 2 5 0 3 
-3 3 5 5 5 4 5 5 5 3 0 
+0 3 1 4 4 1 3 4 5 
+3 0 3 1 4 3 3 5 4 
+1 3 0 3 1 5 1 2 4 
+4 1 3 0 2 2 2 5 4 
+4 4 1 2 0 1 3 1 5 
+1 3 5 2 1 0 1 3 3 
+3 3 1 2 3 1 0 5 5 
+4 5 2 5 1 3 5 0 4 
+5 4 4 4 5 3 5 4 0 
 
 ---------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 3, 1, 2, 4, 7, 5, 8, 6, 9, 10, 0]
-Minimum longest distance: 3
-Path distance: 25
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 3, 2, 6, 5, 8, 4, 7, 1, 9, 10, 0]
-Minimum longest distance: 3
-Path distance: 16
----------------------A* SEARCH---------------------------
-Best path: [0, 6, 2, 3, 5, 8, 4, 7, 1, 9, 10, 0]
-Minimum longest distance: 3
-Path distance: 16
-
-
-0 2 5 5 2 2 4 4 4 2 3 5 
-2 0 1 4 1 4 3 5 5 3 1 2 
-5 1 0 3 2 3 4 1 1 3 5 1 
-5 4 3 0 5 3 3 2 5 2 4 3 
-2 1 2 5 0 3 4 5 3 3 5 4 
-2 4 3 3 3 0 2 4 5 1 2 3 
-4 3 4 3 4 2 0 5 4 1 1 3 
-4 5 1 2 5 4 5 0 1 5 4 4 
-4 5 1 5 3 5 4 1 0 5 1 1 
-2 3 3 2 3 1 1 5 5 0 4 3 
-3 1 5 4 5 2 1 4 1 4 0 2 
-5 2 1 3 4 3 3 4 1 3 2 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 4, 2, 11, 8, 7, 3, 9, 6, 10, 5, 0]
-Minimum longest distance: 2
-Path distance: 18
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 5, 9, 6, 10, 1, 4, 2, 11, 8, 7, 3, 0]
-Minimum longest distance: 5
-Path distance: 19
----------------------A* SEARCH---------------------------
-Best path: [0, 5, 9, 6, 10, 1, 4, 2, 11, 8, 7, 3, 0]
-Minimum longest distance: 5
-Path distance: 19
-
-
-0 3 2 4 4 4 5 2 2 1 5 4 
-3 0 4 5 5 3 2 4 3 4 2 3 
-2 4 0 1 5 3 4 2 2 4 3 2 
-4 5 1 0 3 3 1 4 3 1 3 2 
-4 5 5 3 0 3 5 4 3 3 3 4 
-4 3 3 3 3 0 1 2 1 1 5 4 
-5 2 4 1 5 1 0 4 5 3 3 5 
-2 4 2 4 4 2 4 0 4 4 4 2 
-2 3 2 3 3 1 5 4 0 3 2 3 
-1 4 4 1 3 1 3 4 3 0 1 4 
-5 2 3 3 3 5 3 4 2 1 0 2 
-4 3 2 2 4 4 5 2 3 4 2 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 5, 2, 3, 4, 8, 9, 6, 10, 11, 7, 0]
-Minimum longest distance: 3
-Path distance: 31
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 9, 3, 2, 7, 11, 10, 1, 6, 5, 8, 4, 0]
+Best path: [0, 1, 2, 3, 4, 6, 5, 8, 7, 0]
 Minimum longest distance: 4
-Path distance: 22
----------------------A* SEARCH---------------------------
-Best path: [0, 9, 10, 1, 11, 7, 2, 3, 6, 5, 8, 4, 0]
-Minimum longest distance: 4
-Path distance: 22
-
-
-0 3 5 1 4 3 4 2 2 1 3 5 
-3 0 3 2 2 1 2 3 3 4 4 2 
-5 3 0 3 3 1 5 5 1 5 5 1 
-1 2 3 0 2 2 1 3 2 5 1 4 
-4 2 3 2 0 3 5 5 3 1 5 2 
-3 1 1 2 3 0 3 4 3 2 5 2 
-4 2 5 1 5 3 0 1 1 5 1 3 
-2 3 5 3 5 4 1 0 1 3 4 5 
-2 3 1 2 3 3 1 1 0 2 4 2 
-1 4 5 5 1 2 5 3 2 0 1 4 
-3 4 5 1 5 5 1 4 4 1 0 5 
-5 2 1 4 2 2 3 5 2 4 5 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 3, 1, 4, 11, 2, 5, 9, 10, 6, 7, 8, 0]
-Minimum longest distance: 2
-Path distance: 17
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 7, 8, 6, 3, 10, 9, 4, 1, 5, 2, 11, 0]
-Minimum longest distance: 5
-Path distance: 18
----------------------A* SEARCH---------------------------
-Best path: [0, 3, 10, 9, 4, 1, 5, 11, 2, 8, 6, 7, 0]
-Minimum longest distance: 2
-Path distance: 15
-
-
-0 3 2 1 2 2 2 5 4 5 1 2 
-3 0 1 5 3 3 4 3 2 1 3 5 
-2 1 0 1 2 5 2 4 2 5 4 3 
-1 5 1 0 1 4 4 2 5 2 4 1 
-2 3 2 1 0 2 1 4 4 3 3 4 
-2 3 5 4 2 0 5 1 4 1 4 3 
-2 4 2 4 1 5 0 1 2 5 5 3 
-5 3 4 2 4 1 1 0 5 2 4 5 
-4 2 2 5 4 4 2 5 0 5 5 5 
-5 1 5 2 3 1 5 2 5 0 2 1 
-1 3 4 4 3 4 5 4 5 2 0 4 
-2 5 3 1 4 3 3 5 5 1 4 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 2, 1, 8, 6, 4, 5, 7, 3, 11, 9, 10, 0]
-Minimum longest distance: 2
-Path distance: 18
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 10, 4, 6, 7, 5, 9, 11, 3, 2, 1, 8, 0]
-Minimum longest distance: 4
-Path distance: 18
----------------------A* SEARCH---------------------------
-Best path: [0, 10, 4, 6, 7, 5, 9, 11, 3, 2, 1, 8, 0]
-Minimum longest distance: 4
-Path distance: 18
-
-
-0 1 5 5 2 4 1 5 4 5 1 5 
-1 0 3 4 1 3 2 1 1 1 2 3 
-5 3 0 2 1 1 1 1 5 4 1 2 
-5 4 2 0 1 5 4 5 5 1 4 5 
-2 1 1 1 0 4 1 5 5 3 2 2 
-4 3 1 5 4 0 1 2 2 2 5 1 
-1 2 1 4 1 1 0 3 4 2 5 2 
-5 1 1 5 5 2 3 0 2 4 1 1 
-4 1 5 5 5 2 4 2 0 4 5 5 
-5 1 4 1 3 2 2 4 4 0 3 3 
-1 2 1 4 2 5 5 1 5 3 0 4 
-5 3 2 5 2 1 2 1 5 3 4 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 4, 2, 3, 9, 6, 11, 5, 8, 7, 10, 0]
-Minimum longest distance: 2
-Path distance: 17
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 6, 5, 11, 7, 10, 2, 4, 3, 9, 1, 8, 0]
-Minimum longest distance: 4
-Path distance: 15
----------------------A* SEARCH---------------------------
-Best path: [0, 10, 2, 7, 11, 5, 6, 4, 3, 9, 1, 8, 0]
-Minimum longest distance: 4
-Path distance: 15
-
-
-0 1 4 2 4 2 4 5 2 1 5 3 5 
-1 0 4 1 5 1 3 3 4 3 3 4 2 
-4 4 0 5 1 2 3 3 3 4 5 3 1 
-2 1 5 0 3 5 4 3 3 5 5 3 3 
-4 5 1 3 0 2 5 1 4 4 4 1 5 
-2 1 2 5 2 0 1 1 3 3 2 4 5 
-4 3 3 4 5 1 0 2 5 4 1 4 4 
-5 3 3 3 1 1 2 0 1 2 1 1 5 
-2 4 3 3 4 3 5 1 0 3 2 4 1 
-1 3 4 5 4 3 4 2 3 0 4 1 3 
-5 3 5 5 4 2 1 1 2 4 0 3 1 
-3 4 3 3 1 4 4 1 4 1 3 0 5 
-5 2 1 3 5 5 4 5 1 3 1 5 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 3, 1, 5, 2, 4, 11, 9, 7, 6, 10, 12, 8, 0]
-Minimum longest distance: 2
-Path distance: 18
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 9, 11, 4, 2, 12, 8, 7, 10, 6, 5, 1, 3, 0]
-Minimum longest distance: 2
-Path distance: 14
----------------------A* SEARCH---------------------------
-Best path: [0, 9, 11, 4, 2, 12, 8, 7, 10, 6, 5, 1, 3, 0]
-Minimum longest distance: 2
-Path distance: 14
-
-
-0 5 5 2 5 1 3 4 1 3 3 3 5 
-5 0 3 3 1 5 4 3 5 1 3 4 1 
-5 3 0 1 4 2 1 3 4 3 4 5 1 
-2 3 1 0 1 1 4 4 1 2 4 3 2 
-5 1 4 1 0 1 4 3 2 2 5 3 5 
-1 5 2 1 1 0 1 3 1 2 4 5 3 
-3 4 1 4 4 1 0 1 5 1 1 1 4 
-4 3 3 4 3 3 1 0 2 3 1 5 4 
-1 5 4 1 2 1 5 2 0 3 4 5 5 
-3 1 3 2 2 2 1 3 3 0 4 5 1 
-3 3 4 4 5 4 1 1 4 4 0 1 3 
-3 4 5 3 3 5 1 5 5 5 1 0 2 
-5 1 1 2 5 3 4 4 5 1 3 2 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 3, 2, 5, 4, 1, 9, 12, 11, 6, 10, 7, 8, 0]
-Minimum longest distance: 2
-Path distance: 17
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 8, 5, 4, 3, 2, 12, 1, 9, 6, 11, 10, 7, 0]
-Minimum longest distance: 4
-Path distance: 16
----------------------A* SEARCH---------------------------
-Best path: [0, 8, 5, 3, 4, 1, 9, 12, 2, 6, 11, 10, 7, 0]
-Minimum longest distance: 4
-Path distance: 16
-
-
-0 5 4 1 5 5 4 2 4 1 5 5 5 
-5 0 4 4 2 4 3 1 5 3 3 5 5 
-4 4 0 2 5 1 3 1 4 5 1 3 3 
-1 4 2 0 2 3 3 5 2 5 2 2 4 
-5 2 5 2 0 4 3 4 3 5 5 3 1 
-5 4 1 3 4 0 3 3 3 1 2 2 5 
-4 3 3 3 3 3 0 1 2 3 2 5 4 
-2 1 1 5 4 3 1 0 1 5 1 1 5 
-4 5 4 2 3 3 2 1 0 5 5 2 4 
-1 3 5 5 5 1 3 5 5 0 3 5 1 
-5 3 1 2 5 2 2 1 5 3 0 1 5 
-5 5 3 2 3 2 5 1 2 5 1 0 3 
-5 5 3 4 1 5 4 5 4 1 5 3 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 3, 2, 5, 10, 6, 8, 11, 7, 1, 4, 12, 9, 0]
-Minimum longest distance: 2
-Path distance: 19
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 3, 8, 11, 10, 2, 5, 9, 12, 4, 1, 7, 6, 0]
-Minimum longest distance: 4
-Path distance: 19
----------------------A* SEARCH---------------------------
-Best path: [0, 3, 8, 6, 7, 1, 4, 12, 9, 5, 2, 10, 11, 0]
-Minimum longest distance: 5
-Path distance: 20
-
-
-0 3 5 2 1 1 4 1 4 3 2 4 1 
-3 0 1 5 3 2 2 1 3 3 3 1 3 
-5 1 0 4 5 2 1 2 4 2 1 3 4 
-2 5 4 0 5 4 1 1 5 5 2 3 2 
-1 3 5 5 0 2 4 1 1 4 3 3 2 
-1 2 2 4 2 0 4 1 1 4 5 1 3 
-4 2 1 1 4 4 0 1 3 2 2 2 2 
-1 1 2 1 1 1 1 0 5 3 2 4 4 
-4 3 4 5 1 1 3 5 0 2 3 4 2 
-3 3 2 5 4 4 2 3 2 0 4 2 4 
-2 3 1 2 3 5 2 2 3 4 0 5 4 
-4 1 3 3 3 1 2 4 4 2 5 0 4 
-1 3 4 2 2 3 2 4 2 4 4 4 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 3, 6, 1, 2, 5, 11, 9, 8, 12, 4, 7, 10, 0]
-Minimum longest distance: 2
-Path distance: 22
----------------------LEAST COST SEARCH---------------------------
-Best path: [0, 12, 4, 8, 9, 6, 3, 7, 5, 11, 1, 2, 10, 0]
-Minimum longest distance: 2
-Path distance: 17
----------------------A* SEARCH---------------------------
-Best path: [0, 12, 3, 6, 9, 8, 4, 7, 5, 11, 1, 2, 10, 0]
-Minimum longest distance: 2
-Path distance: 17
-
-
-0 2 2 4 3 2 5 2 3 5 5 1 4 
-2 0 5 5 1 4 4 1 3 1 1 3 3 
-2 5 0 3 4 2 2 1 4 3 2 3 4 
-4 5 3 0 2 4 4 3 4 3 5 5 4 
-3 1 4 2 0 1 4 2 3 4 3 4 1 
-2 4 2 4 1 0 1 4 3 5 3 5 1 
-5 4 2 4 4 1 0 3 1 2 3 3 4 
-2 1 1 3 2 4 3 0 3 5 1 4 2 
-3 3 4 4 3 3 1 3 0 1 4 3 2 
-5 1 3 3 4 5 2 5 1 0 2 4 4 
-5 1 2 5 3 3 3 1 4 2 0 5 3 
-1 3 3 5 4 5 3 4 3 4 5 0 4 
-4 3 4 4 1 1 4 2 2 4 3 4 0 
-
----------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 4, 3, 2, 5, 6, 7, 12, 10, 9, 8, 11, 0]
-Minimum longest distance: 3
 Path distance: 26
+Time: 0.003410100
 ---------------------LEAST COST SEARCH---------------------------
-Best path: [0, 11, 2, 7, 10, 1, 9, 8, 6, 5, 12, 4, 3, 0]
-Minimum longest distance: 4
-Path distance: 19
+Best path: [0, 2, 7, 4, 5, 6, 3, 1, 8, 0]
+Minimum longest distance: 5
+Path distance: 18
+Time: 0.010855200
 ---------------------A* SEARCH---------------------------
-Best path: [0, 11, 2, 7, 10, 1, 9, 8, 6, 5, 12, 4, 3, 0]
-Minimum longest distance: 4
-Path distance: 19
+Best path: [0, 5, 4, 7, 2, 6, 3, 1, 8, 0]
+Minimum longest distance: 5
+Path distance: 18
+Time: 0.012615100
 
 
-0 2 2 1 4 3 2 5 3 3 1 2 4 5 
-2 0 1 2 4 2 4 3 2 5 3 4 2 4 
-2 1 0 5 4 3 4 1 4 3 3 2 3 2 
-1 2 5 0 5 3 2 3 3 2 1 1 2 5 
-4 4 4 5 0 4 5 3 4 4 2 3 5 1 
-3 2 3 3 4 0 4 2 5 4 4 1 4 3 
-2 4 4 2 5 4 0 2 1 5 4 5 4 2 
-5 3 1 3 3 2 2 0 2 3 3 3 5 3 
-3 2 4 3 4 5 1 2 0 2 2 4 4 4 
-3 5 3 2 4 4 5 3 2 0 2 5 1 3 
-1 3 3 1 2 4 4 3 2 2 0 2 4 3 
-2 4 2 1 3 1 5 3 4 5 2 0 2 4 
-4 2 3 2 5 4 4 5 4 1 4 2 0 5 
-5 4 2 5 1 3 2 3 4 3 3 4 5 0 
+0 3 5 3 2 4 4 1 3 
+3 0 4 2 1 3 1 3 4 
+5 4 0 4 2 4 5 1 2 
+3 2 4 0 4 4 5 3 4 
+2 1 2 4 0 5 3 2 3 
+4 3 4 4 5 0 5 3 4 
+4 1 5 5 3 5 0 1 1 
+1 3 1 3 2 3 1 0 3 
+3 4 2 4 3 4 1 3 0 
 
 ---------------------DEPTH FIRST SEARCH---------------------------
-Best path: [0, 1, 2, 7, 5, 11, 3, 12, 9, 8, 6, 13, 4, 10, 0]
+Best path: [0, 3, 1, 5, 7, 2, 4, 6, 8, 0]
+Minimum longest distance: 3
+Path distance: 21
+Time: 0.004976000
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 7, 6, 8, 2, 4, 1, 3, 5, 0]
+Minimum longest distance: 4
+Path distance: 18
+Time: 0.010109100
+---------------------A* SEARCH---------------------------
+Best path: [0, 7, 6, 8, 2, 4, 1, 3, 5, 0]
+Minimum longest distance: 4
+Path distance: 18
+Time: 0.012345700
+
+
+0 4 5 3 4 3 4 3 4 
+4 0 5 4 1 3 2 3 4 
+5 5 0 4 4 2 4 3 5 
+3 4 4 0 5 2 2 4 2 
+4 1 4 5 0 1 5 4 4 
+3 3 2 2 1 0 5 1 5 
+4 2 4 2 5 5 0 2 1 
+3 3 3 4 4 1 2 0 3 
+4 4 5 2 4 5 1 3 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 3, 8, 6, 1, 4, 5, 2, 7, 0]
+Minimum longest distance: 3
+Path distance: 18
+Time: 0.003868000
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 3, 8, 6, 1, 4, 5, 7, 2, 0]
+Minimum longest distance: 5
+Path distance: 19
+Time: 0.006970200
+---------------------A* SEARCH---------------------------
+Best path: [0, 3, 8, 6, 1, 4, 5, 7, 2, 0]
+Minimum longest distance: 5
+Path distance: 19
+Time: 0.009689400
+
+
+0 5 5 2 4 1 5 1 1 
+5 0 5 5 3 2 5 1 5 
+5 5 0 1 4 3 1 4 2 
+2 5 1 0 4 2 3 5 5 
+4 3 4 4 0 5 4 1 1 
+1 2 3 2 5 0 2 3 3 
+5 5 1 3 4 2 0 2 4 
+1 1 4 5 1 3 2 0 1 
+1 5 2 5 1 3 4 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 3, 2, 6, 5, 1, 7, 4, 8, 0]
+Minimum longest distance: 2
+Path distance: 12
+Time: 0.003441400
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 8, 4, 7, 1, 5, 6, 2, 3, 0]
+Minimum longest distance: 2
+Path distance: 12
+Time: 0.004246200
+---------------------A* SEARCH---------------------------
+Best path: [0, 8, 4, 7, 1, 5, 3, 2, 6, 0]
+Minimum longest distance: 5
+Path distance: 15
+Time: 0.003777500
+
+
+0 1 4 1 2 2 5 4 2 
+1 0 2 2 4 3 2 3 1 
+4 2 0 4 5 1 4 2 3 
+1 2 4 0 2 1 2 4 4 
+2 4 5 2 0 5 3 5 4 
+2 3 1 1 5 0 1 2 2 
+5 2 4 2 3 1 0 2 3 
+4 3 2 4 5 2 2 0 1 
+2 1 3 4 4 2 3 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 5, 8, 7, 6, 3, 4, 0]
+Minimum longest distance: 2
+Path distance: 15
+Time: 0.006007900
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 1, 8, 7, 2, 5, 6, 3, 4, 0]
+Minimum longest distance: 2
+Path distance: 13
+Time: 0.006885800
+---------------------A* SEARCH---------------------------
+Best path: [0, 1, 8, 7, 2, 5, 6, 3, 4, 0]
+Minimum longest distance: 2
+Path distance: 13
+Time: 0.012256900
+
+
+0 1 5 1 4 1 3 4 2 4 
+1 0 3 3 3 2 5 3 1 5 
+5 3 0 1 4 3 1 2 4 4 
+1 3 1 0 1 3 4 3 3 5 
+4 3 4 1 0 2 1 5 5 1 
+1 2 3 3 2 0 5 3 2 2 
+3 5 1 4 1 5 0 2 2 1 
+4 3 2 3 5 3 2 0 3 3 
+2 1 4 3 5 2 2 3 0 3 
+4 5 4 5 1 2 1 3 3 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 5, 9, 4, 3, 2, 7, 6, 8, 0]
+Minimum longest distance: 2
+Path distance: 16
+Time: 0.013209100
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 5, 1, 8, 6, 9, 4, 3, 2, 7, 0]
+Minimum longest distance: 4
+Path distance: 16
+Time: 0.017716900
+---------------------A* SEARCH---------------------------
+Best path: [0, 1, 8, 5, 9, 4, 3, 2, 6, 7, 0]
+Minimum longest distance: 4
+Path distance: 16
+Time: 0.021106000
+
+
+0 5 1 4 1 5 1 2 2 4 
+5 0 5 4 1 1 5 2 1 4 
+1 5 0 5 2 5 3 3 3 2 
+4 4 5 0 4 5 5 5 2 1 
+1 1 2 4 0 5 5 2 4 2 
+5 1 5 5 5 0 3 4 2 3 
+1 5 3 5 5 3 0 2 1 3 
+2 2 3 5 2 4 2 0 3 3 
+2 1 3 2 4 2 1 3 0 3 
+4 4 2 1 2 3 3 3 3 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 4, 9, 3, 8, 5, 1, 7, 6, 0]
+Minimum longest distance: 2
+Path distance: 16
+Time: 0.014944100
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 2, 9, 3, 8, 6, 7, 4, 1, 5, 0]
+Minimum longest distance: 5
+Path distance: 18
+Time: 0.017533300
+---------------------A* SEARCH---------------------------
+Best path: [0, 2, 9, 3, 8, 6, 7, 4, 1, 5, 0]
+Minimum longest distance: 5
+Path distance: 18
+Time: 0.029287000
+
+
+0 3 2 1 4 4 1 1 1 2 
+3 0 4 2 2 2 2 5 5 1 
+2 4 0 2 5 3 3 2 3 1 
+1 2 2 0 2 2 3 4 2 5 
+4 2 5 2 0 1 1 4 5 1 
+4 2 3 2 1 0 5 4 5 1 
+1 2 3 3 1 5 0 2 3 2 
+1 5 2 4 4 4 2 0 2 2 
+1 5 3 2 5 5 3 2 0 1 
+2 1 1 5 1 1 2 2 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 3, 1, 4, 5, 9, 6, 7, 8, 0]
+Minimum longest distance: 2
+Path distance: 17
+Time: 0.014507600
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 8, 7, 2, 9, 1, 6, 4, 5, 3, 0]
+Minimum longest distance: 2
+Path distance: 14
+Time: 0.034737400
+---------------------A* SEARCH---------------------------
+Best path: [0, 3, 1, 6, 4, 5, 9, 2, 7, 8, 0]
+Minimum longest distance: 2
+Path distance: 14
+Time: 0.039557400
+
+
+0 3 2 5 4 5 4 3 2 3 
+3 0 4 3 5 2 2 3 3 1 
+2 4 0 4 1 2 5 4 1 1 
+5 3 4 0 4 3 1 2 5 5 
+4 5 1 4 0 2 5 1 3 5 
+5 2 2 3 2 0 1 5 5 1 
+4 2 5 1 5 1 0 5 3 4 
+3 3 4 2 1 5 5 0 1 5 
+2 3 1 5 3 5 3 1 0 2 
+3 1 1 5 5 1 4 5 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 4, 5, 9, 1, 6, 3, 7, 8, 0]
+Minimum longest distance: 2
+Path distance: 15
+Time: 0.021673300
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 8, 2, 4, 7, 3, 6, 5, 9, 1, 0]
+Minimum longest distance: 3
+Path distance: 14
+Time: 0.008448000
+---------------------A* SEARCH---------------------------
+Best path: [0, 8, 2, 4, 7, 3, 6, 5, 9, 1, 0]
+Minimum longest distance: 3
+Path distance: 14
+Time: 0.013427700
+
+
+0 1 4 4 2 3 1 4 1 3 
+1 0 4 2 1 3 1 2 1 1 
+4 4 0 4 1 1 4 3 3 4 
+4 2 4 0 2 5 2 4 5 3 
+2 1 1 2 0 4 1 4 4 5 
+3 3 1 5 4 0 5 1 4 4 
+1 1 4 2 1 5 0 4 4 5 
+4 2 3 4 4 1 4 0 2 3 
+1 1 3 5 4 4 4 2 0 4 
+3 1 4 3 5 4 5 3 4 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 4, 6, 3, 9, 7, 5, 2, 8, 0]
+Minimum longest distance: 3
+Path distance: 17
+Time: 0.014758300
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 8, 1, 9, 3, 6, 4, 2, 5, 7, 0]
+Minimum longest distance: 4
+Path distance: 16
+Time: 0.018265000
+---------------------A* SEARCH---------------------------
+Best path: [0, 6, 4, 2, 5, 7, 8, 1, 9, 3, 0]
+Minimum longest distance: 4
+Path distance: 16
+Time: 0.017174700
+
+
+0 2 1 1 1 5 1 1 5 4 
+2 0 5 2 2 5 3 2 3 4 
+1 5 0 4 2 5 5 3 2 1 
+1 2 4 0 3 2 4 5 3 1 
+1 2 2 3 0 3 3 2 2 2 
+5 5 5 2 3 0 3 1 4 1 
+1 3 5 4 3 3 0 5 1 3 
+1 2 3 5 2 1 5 0 3 5 
+5 3 2 3 2 4 1 3 0 5 
+4 4 1 1 2 1 3 5 5 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 3, 5, 7, 4, 9, 2, 8, 6, 0]
+Minimum longest distance: 2
+Path distance: 16
+Time: 0.016132800
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 6, 8, 2, 9, 5, 7, 4, 1, 3, 0]
+Minimum longest distance: 2
+Path distance: 14
+Time: 0.026242600
+---------------------A* SEARCH---------------------------
+Best path: [0, 6, 8, 4, 2, 9, 3, 5, 7, 1, 0]
+Minimum longest distance: 2
+Path distance: 15
+Time: 0.025495300
+
+
+0 4 4 5 4 2 1 2 1 1 
+4 0 2 1 5 5 2 1 4 2 
+4 2 0 5 2 5 2 4 2 3 
+5 1 5 0 5 4 2 5 3 1 
+4 5 2 5 0 3 1 1 1 3 
+2 5 5 4 3 0 2 3 1 3 
+1 2 2 2 1 2 0 1 1 1 
+2 1 4 5 1 3 1 0 4 2 
+1 4 2 3 1 1 1 4 0 1 
+1 2 3 1 3 3 1 2 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 5, 6, 1, 3, 9, 7, 4, 2, 8, 0]
+Minimum longest distance: 2
+Path distance: 16
+Time: 0.018749200
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 9, 3, 1, 2, 4, 7, 6, 8, 5, 0]
+Minimum longest distance: 2
+Path distance: 13
+Time: 0.025143400
+---------------------A* SEARCH---------------------------
+Best path: [0, 6, 5, 8, 9, 3, 1, 7, 4, 2, 0]
+Minimum longest distance: 4
+Path distance: 15
+Time: 0.028373300
+
+
+0 3 2 2 5 1 5 5 5 3 4 
+3 0 2 4 5 4 5 4 3 4 3 
+2 2 0 3 3 4 2 1 5 2 5 
+2 4 3 0 5 1 3 5 5 5 3 
+5 5 3 5 0 4 4 3 3 5 4 
+1 4 4 1 4 0 5 4 4 3 2 
+5 5 2 3 4 5 0 2 4 5 4 
+5 4 1 5 3 4 2 0 3 2 3 
+5 3 5 5 3 4 4 3 0 3 3 
+3 4 2 5 5 3 5 2 3 0 2 
+4 3 5 3 4 2 4 3 3 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 3, 6, 7, 4, 8, 9, 10, 5, 0]
+Minimum longest distance: 3
+Path distance: 27
+Time: 0.104999100
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 5, 3, 6, 7, 2, 1, 10, 9, 8, 4, 0]
+Minimum longest distance: 5
+Path distance: 26
+Time: 0.162418800
+---------------------A* SEARCH---------------------------
+Best path: [0, 3, 5, 10, 9, 7, 6, 2, 1, 8, 4, 0]
+Minimum longest distance: 5
+Path distance: 26
+Time: 0.242912700
+
+
+0 1 4 1 2 3 2 2 3 1 4 
+1 0 5 4 3 4 3 4 5 3 3 
+4 5 0 5 5 1 1 3 5 2 1 
+1 4 5 0 3 1 5 1 5 3 1 
+2 3 5 3 0 4 4 5 1 5 3 
+3 4 1 1 4 0 5 1 3 3 3 
+2 3 1 5 4 5 0 3 3 2 1 
+2 4 3 1 5 1 3 0 4 4 4 
+3 5 5 5 1 3 3 4 0 3 2 
+1 3 2 3 5 3 2 4 3 0 1 
+4 3 1 1 3 3 1 4 2 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 4, 3, 5, 2, 7, 6, 8, 10, 9, 0]
+Minimum longest distance: 3
+Path distance: 22
+Time: 0.100329300
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 3, 7, 5, 2, 6, 10, 9, 8, 4, 1, 0]
+Minimum longest distance: 3
+Path distance: 15
+Time: 0.056936700
+---------------------A* SEARCH---------------------------
+Best path: [0, 9, 10, 3, 7, 5, 2, 6, 1, 4, 8, 0]
+Minimum longest distance: 3
+Path distance: 17
+Time: 0.077483400
+
+
+0 5 2 4 2 5 2 1 1 4 2 
+5 0 4 4 5 5 1 2 2 1 3 
+2 4 0 5 5 5 5 3 2 3 3 
+4 4 5 0 1 2 3 3 4 4 3 
+2 5 5 1 0 1 5 2 2 2 1 
+5 5 5 2 1 0 5 4 5 5 2 
+2 1 5 3 5 5 0 2 1 5 3 
+1 2 3 3 2 4 2 0 5 1 4 
+1 2 2 4 2 5 1 5 0 4 5 
+4 1 3 4 2 5 5 1 4 0 2 
+2 3 3 3 1 2 3 4 5 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 8, 1, 6, 7, 9, 4, 3, 5, 10, 0]
+Minimum longest distance: 2
+Path distance: 19
+Time: 0.114556900
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 7, 9, 1, 6, 8, 2, 10, 5, 4, 3, 0]
+Minimum longest distance: 4
+Path distance: 18
+Time: 0.048167000
+---------------------A* SEARCH---------------------------
+Best path: [0, 7, 9, 1, 6, 8, 2, 10, 4, 3, 5, 0]
+Minimum longest distance: 5
+Path distance: 19
+Time: 0.045845200
+
+
+0 2 1 2 3 2 2 3 2 3 4 
+2 0 2 4 2 3 2 1 2 1 2 
+1 2 0 3 1 4 4 4 1 3 4 
+2 4 3 0 3 4 3 4 4 4 4 
+3 2 1 3 0 1 1 4 4 4 2 
+2 3 4 4 1 0 3 4 5 4 1 
+2 2 4 3 1 3 0 4 1 3 5 
+3 1 4 4 4 4 4 0 4 2 2 
+2 2 1 4 4 5 1 4 0 4 3 
+3 1 3 4 4 4 3 2 4 0 1 
+4 2 4 4 2 1 5 2 3 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 3, 4, 5, 6, 8, 10, 7, 9, 0]
+Minimum longest distance: 3
+Path distance: 25
+Time: 0.102099400
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 3, 2, 8, 6, 4, 5, 10, 9, 1, 7, 0]
+Minimum longest distance: 3
+Path distance: 16
+Time: 0.037906800
+---------------------A* SEARCH---------------------------
+Best path: [0, 2, 8, 6, 4, 5, 10, 9, 1, 7, 3, 0]
+Minimum longest distance: 4
+Path distance: 15
+Time: 0.070459800
+
+
+0 3 5 1 2 4 3 1 2 3 5 
+3 0 3 5 1 1 2 4 1 5 4 
+5 3 0 4 2 5 1 1 5 5 1 
+1 5 4 0 1 3 2 2 5 3 2 
+2 1 2 1 0 3 5 3 2 1 1 
+4 1 5 3 3 0 4 4 4 4 5 
+3 2 1 2 5 4 0 2 4 3 3 
+1 4 1 2 3 4 2 0 2 4 2 
+2 1 5 5 2 4 4 2 0 3 2 
+3 5 5 3 1 4 3 4 3 0 2 
+5 4 1 2 1 5 3 2 2 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 4, 5, 3, 6, 7, 8, 10, 9, 0]
+Minimum longest distance: 3
+Path distance: 27
+Time: 0.097903100
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 7, 2, 6, 3, 4, 9, 10, 8, 1, 5, 0]
+Minimum longest distance: 4
+Path distance: 17
+Time: 0.042007500
+---------------------A* SEARCH---------------------------
+Best path: [0, 7, 2, 6, 3, 4, 9, 10, 8, 1, 5, 0]
+Minimum longest distance: 4
+Path distance: 17
+Time: 0.060846100
+
+
+0 2 1 3 3 1 5 3 2 3 4 
+2 0 1 2 5 1 2 5 3 2 5 
+1 1 0 4 1 1 4 3 3 5 4 
+3 2 4 0 5 4 4 4 2 2 4 
+3 5 1 5 0 1 3 1 1 4 2 
+1 1 1 4 1 0 5 4 2 2 1 
+5 2 4 4 3 5 0 2 1 3 1 
+3 5 3 4 1 4 2 0 2 3 1 
+2 3 3 2 1 2 1 2 0 4 2 
+3 2 5 2 4 2 3 3 4 0 5 
+4 5 4 4 2 1 1 1 2 5 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 4, 7, 6, 10, 5, 9, 3, 8, 0]
+Minimum longest distance: 2
+Path distance: 17
+Time: 0.107953800
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 5, 1, 2, 4, 7, 10, 6, 8, 3, 9, 0]
+Minimum longest distance: 3
+Path distance: 15
+Time: 0.038041600
+---------------------A* SEARCH---------------------------
+Best path: [0, 2, 1, 5, 4, 7, 10, 6, 8, 3, 9, 0]
+Minimum longest distance: 3
+Path distance: 15
+Time: 0.080297000
+
+
+0 2 3 5 1 3 3 2 2 3 3 5 
+2 0 4 2 2 1 2 2 4 4 2 3 
+3 4 0 4 5 4 1 3 3 1 1 4 
+5 2 4 0 5 1 4 4 1 4 2 3 
+1 2 5 5 0 3 2 5 1 2 2 2 
+3 1 4 1 3 0 5 4 5 5 1 2 
+3 2 1 4 2 5 0 4 5 3 2 4 
+2 2 3 4 5 4 4 0 2 2 2 3 
+2 4 3 1 1 5 5 2 0 1 4 5 
+3 4 1 4 2 5 3 2 1 0 3 1 
+3 2 1 2 2 1 2 2 4 3 0 5 
+5 3 4 3 2 2 4 3 5 1 5 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 3, 5, 10, 2, 6, 4, 11, 9, 7, 8, 0]
+Minimum longest distance: 2
+Path distance: 19
+Time: 1.206557300
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 4, 6, 2, 10, 7, 1, 5, 3, 8, 9, 11, 0]
+Minimum longest distance: 5
+Path distance: 19
+Time: 0.110438100
+---------------------A* SEARCH---------------------------
+Best path: [0, 4, 8, 3, 5, 1, 6, 2, 10, 7, 9, 11, 0]
+Minimum longest distance: 5
+Path distance: 19
+Time: 0.192534800
+
+
+0 5 1 2 2 2 5 2 2 5 3 1 
+5 0 2 1 2 1 3 3 1 1 5 2 
+1 2 0 3 2 1 1 1 1 2 5 1 
+2 1 3 0 1 1 1 3 4 3 1 2 
+2 2 2 1 0 5 5 1 5 4 5 1 
+2 1 1 1 5 0 4 4 1 2 1 2 
+5 3 1 1 5 4 0 4 3 2 1 3 
+2 3 1 3 1 4 4 0 3 4 3 5 
+2 1 1 4 5 1 3 3 0 5 2 5 
+5 1 2 3 4 2 2 4 5 0 2 2 
+3 5 5 1 5 1 1 3 2 2 0 2 
+1 2 1 2 1 2 3 5 5 2 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 1, 3, 5, 8, 10, 6, 9, 11, 4, 7, 0]
+Minimum longest distance: 2
+Path distance: 17
+Time: 1.195790700
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 11, 4, 7, 2, 6, 10, 3, 5, 8, 1, 9, 0]
+Minimum longest distance: 5
+Path distance: 16
+Time: 0.101676500
+---------------------A* SEARCH---------------------------
+Best path: [0, 11, 4, 7, 2, 6, 3, 10, 5, 8, 1, 9, 0]
+Minimum longest distance: 5
+Path distance: 16
+Time: 0.179714300
+
+
+0 2 2 1 4 2 2 1 4 1 5 2 
+2 0 5 5 1 2 5 2 5 2 4 1 
+2 5 0 3 5 4 4 2 4 5 1 3 
+1 5 3 0 2 2 5 1 2 1 3 3 
+4 1 5 2 0 3 4 4 5 4 4 3 
+2 2 4 2 3 0 2 5 2 5 5 5 
+2 5 4 5 4 2 0 5 2 2 3 4 
+1 2 2 1 4 5 5 0 5 2 4 3 
+4 5 4 2 5 2 2 5 0 4 3 1 
+1 2 5 1 4 5 2 2 4 0 1 1 
+5 4 1 3 4 5 3 4 3 1 0 5 
+2 1 3 3 3 5 4 3 1 1 5 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 4, 3, 5, 6, 8, 11, 9, 10, 2, 7, 0]
+Minimum longest distance: 2
+Path distance: 18
+Time: 1.208642700
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 3, 7, 2, 10, 9, 11, 8, 6, 5, 1, 4, 0]
+Minimum longest distance: 4
+Path distance: 19
+Time: 0.125025200
+---------------------A* SEARCH---------------------------
+Best path: [0, 9, 10, 2, 7, 3, 4, 1, 11, 8, 5, 6, 0]
+Minimum longest distance: 2
+Path distance: 17
+Time: 0.207036600
+
+
+0 3 1 4 3 5 5 3 4 5 1 5 
+3 0 1 2 4 2 2 1 2 5 4 5 
+1 1 0 5 2 3 5 5 5 5 3 3 
+4 2 5 0 5 5 2 2 3 2 4 5 
+3 4 2 5 0 1 5 4 5 2 4 2 
+5 2 3 5 1 0 1 1 1 3 3 1 
+5 2 5 2 5 1 0 5 3 1 4 2 
+3 1 5 2 4 1 5 0 5 4 5 1 
+4 2 5 3 5 1 3 5 0 2 1 2 
+5 5 5 2 2 3 1 4 2 0 5 3 
+1 4 3 4 4 3 4 5 1 5 0 4 
+5 5 3 5 2 1 2 1 2 3 4 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 2, 1, 3, 6, 5, 7, 11, 4, 9, 8, 10, 0]
+Minimum longest distance: 2
+Path distance: 17
+Time: 1.211730800
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 10, 8, 5, 11, 7, 1, 2, 4, 9, 6, 3, 0]
+Minimum longest distance: 4
+Path distance: 18
+Time: 0.070473800
+---------------------A* SEARCH---------------------------
+Best path: [0, 10, 8, 11, 7, 1, 2, 4, 5, 6, 9, 3, 0]
+Minimum longest distance: 4
+Path distance: 18
+Time: 0.131170200
+
+
+0 3 1 4 1 4 3 4 4 5 2 4 
+3 0 1 1 1 5 3 5 4 3 5 3 
+1 1 0 3 3 3 3 2 5 5 3 5 
+4 1 3 0 1 4 4 3 4 2 1 4 
+1 1 3 1 0 1 4 4 1 4 3 2 
+4 5 3 4 1 0 4 1 3 3 5 5 
+3 3 3 4 4 4 0 4 4 2 5 5 
+4 5 2 3 4 1 4 0 4 1 3 3 
+4 4 5 4 1 3 4 4 0 1 2 4 
+5 3 5 2 4 3 2 1 1 0 2 1 
+2 5 3 1 3 5 5 3 2 2 0 2 
+4 3 5 4 2 5 5 3 4 1 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 3, 4, 5, 7, 11, 10, 8, 9, 6, 0]
+Minimum longest distance: 3
+Path distance: 23
+Time: 1.213488000
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 2, 1, 3, 10, 11, 9, 8, 4, 5, 7, 6, 0]
+Minimum longest distance: 4
+Path distance: 18
+Time: 0.137502200
+---------------------A* SEARCH---------------------------
+Best path: [0, 2, 1, 3, 10, 11, 9, 8, 4, 5, 7, 6, 0]
+Minimum longest distance: 4
+Path distance: 18
+Time: 0.215593600
+
+
+0 3 5 3 4 4 5 3 3 1 4 5 2 
+3 0 2 5 5 1 5 4 2 2 5 3 5 
+5 2 0 2 1 5 1 3 2 5 2 4 3 
+3 5 2 0 4 5 4 2 3 5 2 5 1 
+4 5 1 4 0 2 3 3 2 5 5 4 2 
+4 1 5 5 2 0 1 4 3 5 1 1 3 
+5 5 1 4 3 1 0 2 4 3 4 4 2 
+3 4 3 2 3 4 2 0 1 3 1 3 1 
+3 2 2 3 2 3 4 1 0 5 1 5 4 
+1 2 5 5 5 5 3 3 5 0 5 1 2 
+4 5 2 2 5 1 4 1 1 5 0 5 1 
+5 3 4 5 4 1 4 3 5 1 5 0 1 
+2 5 3 1 2 3 2 1 4 2 1 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 9, 1, 2, 4, 8, 10, 3, 7, 6, 5, 11, 12, 0]
 Minimum longest distance: 2
 Path distance: 20
+Time: 14.229820500
 ---------------------LEAST COST SEARCH---------------------------
-Best path: [0, 10, 3, 11, 5, 7, 2, 1, 12, 9, 8, 6, 13, 4, 0]
+Best path: [0, 9, 11, 12, 3, 7, 10, 8, 1, 5, 6, 2, 4, 0]
 Minimum longest distance: 4
-Path distance: 21
+Path distance: 18
+Time: 0.247206900
 ---------------------A* SEARCH---------------------------
-Best path: [0, 10, 3, 11, 5, 7, 2, 1, 12, 9, 8, 6, 13, 4, 0]
+Best path: [0, 9, 11, 12, 3, 7, 10, 8, 1, 5, 6, 2, 4, 0]
 Minimum longest distance: 4
+Path distance: 18
+Time: 0.437782400
+
+
+0 1 2 3 4 1 1 1 4 5 2 5 2 
+1 0 4 3 1 2 2 3 1 3 3 2 5 
+2 4 0 1 1 1 5 2 3 4 4 4 4 
+3 3 1 0 5 5 4 3 2 5 4 3 2 
+4 1 1 5 0 4 3 5 2 1 4 3 1 
+1 2 1 5 4 0 1 1 2 5 3 4 4 
+1 2 5 4 3 1 0 5 5 1 3 5 4 
+1 3 2 3 5 1 5 0 5 1 5 2 3 
+4 1 3 2 2 2 5 5 0 1 2 4 2 
+5 3 4 5 1 5 1 1 1 0 5 4 2 
+2 3 4 4 4 3 3 5 2 5 0 3 2 
+5 2 4 3 3 4 5 2 4 4 3 0 1 
+2 5 4 2 1 4 4 3 2 2 2 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 4, 2, 3, 8, 5, 6, 9, 7, 11, 12, 10, 0]
+Minimum longest distance: 2
+Path distance: 18
+Time: 14.096190200
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 7, 5, 6, 9, 8, 10, 12, 11, 1, 4, 2, 3, 0]
+Minimum longest distance: 3
+Path distance: 18
+Time: 0.554802000
+---------------------A* SEARCH---------------------------
+Best path: [0, 5, 6, 9, 7, 11, 12, 3, 2, 4, 1, 8, 10, 0]
+Minimum longest distance: 2
+Path distance: 17
+Time: 1.287270500
+
+
+0 5 5 1 3 1 2 2 3 3 5 3 2 
+5 0 3 4 2 5 1 4 3 2 4 1 2 
+5 3 0 2 5 5 4 5 2 3 5 5 5 
+1 4 2 0 5 3 1 1 2 2 5 2 5 
+3 2 5 5 0 4 3 2 1 2 4 4 5 
+1 5 5 3 4 0 4 4 1 2 2 4 3 
+2 1 4 1 3 4 0 5 5 2 3 2 5 
+2 4 5 1 2 4 5 0 2 5 2 4 2 
+3 3 2 2 1 1 5 2 0 4 3 3 2 
+3 2 3 2 2 2 2 5 4 0 3 5 2 
+5 4 5 5 4 2 3 2 3 3 0 1 4 
+3 1 5 2 4 4 2 4 3 5 1 0 1 
+2 2 5 5 5 3 5 2 2 2 4 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 3, 2, 8, 4, 1, 6, 9, 5, 10, 11, 12, 7, 0]
+Minimum longest distance: 2
 Path distance: 21
+Time: 14.011680100
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 5, 10, 11, 12, 9, 1, 6, 3, 7, 4, 8, 2, 0]
+Minimum longest distance: 5
+Path distance: 22
+Time: 0.996174600
+---------------------A* SEARCH---------------------------
+Best path: [0, 5, 9, 12, 11, 10, 7, 3, 6, 1, 4, 8, 2, 0]
+Minimum longest distance: 5
+Path distance: 22
+Time: 1.602689700
+
+
+0 2 3 4 3 3 1 3 1 1 5 2 3 
+2 0 5 2 2 2 5 4 1 1 3 4 3 
+3 5 0 2 3 1 3 2 2 2 1 2 2 
+4 2 2 0 4 3 1 5 2 4 4 2 4 
+3 2 3 4 0 3 3 2 4 4 3 4 4 
+3 2 1 3 3 0 5 4 4 4 3 1 5 
+1 5 3 1 3 5 0 4 1 4 2 1 2 
+3 4 2 5 2 4 4 0 4 5 4 4 5 
+1 1 2 2 4 4 1 4 0 1 4 2 5 
+1 1 2 4 4 4 4 5 1 0 4 4 5 
+5 3 1 4 3 3 2 4 4 4 0 5 1 
+2 4 2 2 4 1 1 4 2 4 5 0 3 
+3 3 2 4 4 5 2 5 5 5 1 3 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 6, 10, 12, 2, 7, 4, 1, 5, 11, 3, 8, 9, 0]
+Minimum longest distance: 2
+Path distance: 21
+Time: 14.160709100
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 12, 10, 2, 5, 11, 3, 6, 8, 9, 1, 4, 7, 0]
+Minimum longest distance: 3
+Path distance: 20
+Time: 1.151265200
+---------------------A* SEARCH---------------------------
+Best path: [0, 9, 8, 1, 3, 6, 11, 5, 4, 7, 2, 10, 12, 0]
+Minimum longest distance: 3
+Path distance: 20
+Time: 2.025999800
+
+
+0 4 4 2 5 5 3 1 4 4 5 5 3 
+4 0 5 3 4 2 5 2 4 3 3 3 5 
+4 5 0 5 1 3 5 3 5 4 2 5 3 
+2 3 5 0 3 4 4 2 4 4 4 2 4 
+5 4 1 3 0 2 5 2 3 1 1 1 4 
+5 2 3 4 2 0 5 3 3 5 2 1 1 
+3 5 5 4 5 5 0 3 4 3 2 5 1 
+1 2 3 2 2 3 3 0 1 2 5 3 2 
+4 4 5 4 3 3 4 1 0 4 4 2 4 
+4 3 4 4 1 5 3 2 4 0 5 2 3 
+5 3 2 4 1 2 2 5 4 5 0 3 1 
+5 3 5 2 1 1 5 3 2 2 3 0 1 
+3 5 3 4 4 1 1 2 4 3 1 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 3, 1, 5, 2, 4, 7, 8, 11, 9, 6, 10, 12, 0]
+Minimum longest distance: 3
+Path distance: 27
+Time: 14.227775200
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 3, 1, 7, 8, 11, 5, 12, 6, 10, 2, 4, 9, 0]
+Minimum longest distance: 4
+Path distance: 23
+Time: 1.975639900
+---------------------A* SEARCH---------------------------
+Best path: [0, 3, 7, 8, 11, 9, 4, 2, 10, 6, 12, 5, 1, 0]
+Minimum longest distance: 4
+Path distance: 23
+Time: 2.996893200
+
+
+0 2 4 3 1 4 2 1 3 1 4 4 2 
+2 0 2 5 4 2 2 1 3 5 4 5 5 
+4 2 0 5 2 1 5 4 3 4 4 2 4 
+3 5 5 0 5 2 4 1 5 3 4 5 1 
+1 4 2 5 0 3 3 2 4 2 1 3 3 
+4 2 1 2 3 0 4 5 5 2 5 1 1 
+2 2 5 4 3 4 0 4 2 3 4 5 4 
+1 1 4 1 2 5 4 0 1 2 4 4 1 
+3 3 3 5 4 5 2 1 0 4 4 3 5 
+1 5 4 3 2 2 3 2 4 0 1 4 2 
+4 4 4 4 1 5 4 4 4 1 0 4 1 
+4 5 2 5 3 1 5 4 3 4 4 0 1 
+2 5 4 1 3 1 4 1 5 2 1 1 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 4, 9, 10, 12, 11, 5, 3, 7, 8, 6, 0]
+Minimum longest distance: 2
+Path distance: 20
+Time: 14.198600400
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 9, 10, 4, 2, 5, 11, 12, 3, 7, 1, 6, 8, 0]
+Minimum longest distance: 3
+Path distance: 18
+Time: 0.366143800
+---------------------A* SEARCH---------------------------
+Best path: [0, 9, 10, 4, 2, 5, 11, 12, 3, 7, 8, 6, 1, 0]
+Minimum longest distance: 2
+Path distance: 17
+Time: 0.671769900
+
+
+0 2 4 5 4 1 5 2 5 3 4 3 1 3 
+2 0 2 4 4 4 2 5 4 2 5 3 3 1 
+4 2 0 3 4 4 5 2 1 4 1 1 2 4 
+5 4 3 0 3 3 5 3 5 1 4 3 4 3 
+4 4 4 3 0 2 1 5 1 1 4 1 1 2 
+1 4 4 3 2 0 1 5 5 3 3 1 5 5 
+5 2 5 5 1 1 0 5 2 1 3 5 1 4 
+2 5 2 3 5 5 5 0 5 3 4 3 2 4 
+5 4 1 5 1 5 2 5 0 2 4 3 4 4 
+3 2 4 1 1 3 1 3 2 0 5 2 4 3 
+4 5 1 4 4 3 3 4 4 5 0 2 5 1 
+3 3 1 3 1 1 5 3 3 2 2 0 4 2 
+1 3 2 4 1 5 1 2 4 4 5 4 0 2 
+3 1 4 3 2 5 4 4 4 3 1 2 2 0 
+
+---------------------DEPTH FIRST SEARCH---------------------------
+Best path: [0, 1, 2, 3, 4, 5, 6, 8, 9, 7, 11, 10, 13, 12, 0]
+Minimum longest distance: 3
+Path distance: 29
+Time: 206.256749400
+---------------------LEAST COST SEARCH---------------------------
+Best path: [0, 12, 6, 5, 11, 4, 8, 2, 10, 13, 1, 9, 3, 7, 0]
+Minimum longest distance: 3
+Path distance: 18
+Time: 2.216652700
+---------------------A* SEARCH---------------------------
+Best path: [0, 12, 6, 5, 11, 4, 8, 2, 10, 13, 1, 9, 3, 7, 0]
+Minimum longest distance: 3
+Path distance: 18
+Time: 4.023843800
 
