@@ -7,9 +7,12 @@ import static tsp.DistanceMatrixGenerator.saveMatrixToFile;
 public class Main {
     public static void main(String[] args) {
 
-        //String fileName = new String("D:/an2sem2/AI/HA_CR2.1A_bataiosu_corina/src/tsp/results.txt");
+//        String fileName = new String("D:/an2sem2/AI/HA_CR2.1A_bataiosu_corina/src/tsp/results.txt");
+//        String fileNameData = new String("D:/an2sem2/AI/HA_CR2.1A_bataiosu_corina/src/tsp/data.txt");
+//        String fileNameTime = new String("D:/an2sem2/AI/HA_CR2.1A_bataiosu_corina/src/tsp/time.txt");
 
-        int[][] distanceMatrix = DistanceMatrixGenerator.generateRandomMatrix(10);
+        int numberOfCities = 4;
+        int[][] distanceMatrix = DistanceMatrixGenerator.generateRandomMatrix(numberOfCities);
         //saveMatrixToFile(distanceMatrix, fileName);
 
         DepthFirstSearch dfs = new DepthFirstSearch(distanceMatrix);
@@ -50,5 +53,8 @@ public class Main {
         System.out.println("Path distance: " + ass.getRouteDistance());
         System.out.println("Time: " + formattedTime3);
         //AStarSearch.saveToFile(fileName, solutionASS, ass.getBestLongestDistance(), ass.getRouteDistance(), formattedTime3);
+
+        //DataSaver.saveToFileDist(fileNameData, numberOfCities, dfs.getRouteDistance(), lcs.getRouteDistance(), ass.getRouteDistance());
+        //DataSaver.saveToFileTime(fileNameTime, numberOfCities, formattedTime1, formattedTime2, formattedTime3);
     }
 }
